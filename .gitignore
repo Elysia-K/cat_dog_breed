@@ -1,0 +1,17 @@
+# 가상환경
+venv/
+.env/
+
+# 모델 파일
+data/petbreed_model/
+data/petbreed_model_tf/
+
+# 학습 데이터 (예: 이미지 폴더)
+data/train/
+*.h5
+*.pb
+
+# 캐시 및 임시 파일
+__pycache__/
+*.pyc
+.DS_Store
